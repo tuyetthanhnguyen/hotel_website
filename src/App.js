@@ -1,8 +1,18 @@
-import React from "react";
+import React from 'react';
 import './app.css'
+import Home from './Components/Home/Home'
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+
 const App = () => {
     return (
-        <h2>Loving</h2>
+        <>
+            <Navbar />
+            {/* <Home />
+            <Main />
+            <Footer /> */}
+
+        </>
     )
 }
 
